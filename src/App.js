@@ -27,8 +27,8 @@ class App extends Component {
       <div>
         <Header headerProp={this.state.header}/>
         <Content contentProp={this.state.content}/>
-        <button onClick={() => {this.changeHeader("Hello")}}>Change1</button>
-        <button onClick={() => {this.changeContent("World")}}>Change2</button>
+        <button onClick={() => {this.changeHeader("Hello")}}>Change Header</button>
+        <button onClick={() => {this.changeContent("World")}}>Change Content</button>
       </div >
     );
 
